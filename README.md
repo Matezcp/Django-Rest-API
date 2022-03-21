@@ -2,6 +2,16 @@
 
 Rest API simples feita em Python utilizando o framework Django
 
+Setup:
+---------------------------  
+1. Clone the repository:
+
+   ```bash
+   $ git clone https://github.com/Matezcp/Django-Rest-API.git
+   ```
+
+   or download as zip and extract.
+
 Requirements:
 --------------------------- 
 Construir pelo menos dois endpoints utilizando Django:
