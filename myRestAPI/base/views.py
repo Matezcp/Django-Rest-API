@@ -24,4 +24,4 @@ def addUser(request):
         serializer.save()
         return Response(serializer.data)
     else:
-        return Response(json.dumps([{'Error':'User could not be added'}]))
+        return Response(serializer.errors)
